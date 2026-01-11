@@ -56,7 +56,7 @@ cM24C02 eeprom(Wire1);
 #define WL_NO_MODULE WL_NO_SHIELD
 #endif
 
-#include "bp_server.h"
+#include "servershared.h"
 
 float
 getAltitude(float press, float temp)
